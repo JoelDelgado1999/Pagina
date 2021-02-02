@@ -1,0 +1,188 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color:#557174;
+}
+
+h1{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.TITULO{
+    display: flex;
+    background-color:#1A1D24;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 50px;
+}
+.Menu{
+
+    
+    margin-top: 0px;
+    font-size: 20px;
+
+    margin-left: 80%;
+    background-color:#1A1D24;
+}
+
+.Menu ul{
+    display: flex;
+    margin-top: 25px;
+    background-color: #1A1D24;
+   
+
+}
+.Menu a{
+    padding-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #1A1D24;
+    color: cornsilk;
+
+
+
+}
+
+.Menu li:hover{
+    transform: scale(1.06);
+    transition: transform .5s
+    background-color: #1A1D24;
+}
+
+.TITULO{
+    margin-top: 0px;
+    padding-left: 70px;
+}
+.COORDINACION{
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    height: 0px;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+.imgKathy{
+
+
+    width: 250px;
+    height:300px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 200px;
+
+
+}
+.Integrante{
+     width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-top: 35px;
+
+
+}
+h4{
+    margin-left: 10%;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 23px;
+    margin-bottom: 5px;
+    color: white ;
+}
+
+.COORDINACION p{
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: 10%;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 20px;
+}
+.imgNathy{
+
+
+   
+    width: 250px;
+    max-width:400px;
+    height:300px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 200px;
+   
+}
+.imgEvi{
+
+    width: 250px;
+    height:300px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius:200px;
+
+}
+.ImgJoel{
+
+    max-width: 250px;
+    height:300px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius:200px;
+
+
+}
+.ImgCris{
+
+    width: 250px;
+    height:300px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 200px;
+}
+.ImgEdu{
+    width: 250px;
+    height:300px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius: 200px;
+}
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+ 
+.fullscreen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: 100%;
+    height: auto;
+  }
+}
+ 
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+
+
+
